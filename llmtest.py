@@ -1,13 +1,19 @@
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
+import os
+
 
 # Step 1: Toy Dataset
-sentences = [
-    "the cat sat on the mat",
-    "the dog ran in the park",
-    "the bird flew over the house"
-]
+
+input_data = "./input/"
+
+sentences = []
+for filename in os.listdir(input_data):
+    file_path = os.path.join(input_data,filename)
+    with open(file_path,"r") as file:
+        content = file.read()
+        sentences += content.split("\n")
 
 # Build vocabulary
 words = sorted(set(" ".join(sentences).split()))
