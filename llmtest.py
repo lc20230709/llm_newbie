@@ -130,5 +130,5 @@ study = optuna.create_study(direction="minimize")
 study.optimize(train_model, n_trials=10)
 
 # 输出最佳参数
-print("最佳参数:", study.best_params)
-print("最佳损失:", study.best_value)
+print("best parameters:", study.best_params)
+print("best loss:", study.best_value)
