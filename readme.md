@@ -4,6 +4,13 @@ As of today, AI is really everywhere, I want to do some small experiments on LLM
 
 Lets do it together.
 
+## Update 03-23-2025
+
+### I just found out, it is pretty hard to understand the training and prediction process. I want to set targets to finish this.
+
+* add more documents to explain training and prediction on LLM
+* add more code examples to show how training works in a smaller code piece
+
 ## Update 03-21-2025
 
 ### I want to train a simple model with several sentences to see how it works
@@ -39,9 +46,3 @@ Process finished with exit code 0
 ```
 
 
-## Update 03-23-2025
-
-### I just found out, it is pretty hard to understand the training and prediction process. I want to set targets to finish this.
-
-* add more documents to explain training and prediction on LLM
-* add more code examples to show how training works in a smaller code piece
