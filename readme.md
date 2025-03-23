@@ -1,22 +1,22 @@
 # Project Information
 I have been working as a data engineer for many years, early in my career I was a data mining engineer.
-As of today, AI is really everywhere, I want to do some small experiments to learn some fun tech.
+As of today, AI is really everywhere, I want to do some small experiments on LLM to learn some fun tech.
 
 Lets do it together.
 
-## Update 2025-03-21
+## Update 03-21-2025
 
 ### I want to train a simple model with several sentences to see how it works
 
-* change input from file to folder
-* add mlflow and optuna
+* ~~change input from file to folder~~
+* ~~add mlflow and optuna~~
 
 lets have fun on this.
 
 
 ### how to run this tiny project
 
-* ``` python llmtest.py```
+* ``` python train.py```
 
 ```
 
@@ -35,3 +35,11 @@ best loss: 0.2234538495540619
 [I 2025-03-21 23:41:13,051] Trial 9 finished with value: 0.9419061541557312 and parameters: {'n_head': 2, 'base_embed': 25, 'n_layer': 1, 'block_size': 4, 'dropout': 0.18404792476163287, 'batch_size': 2}. Best is trial 8 with value: 0.2234538495540619.
 Process finished with exit code 0
 ```
+
+
+## Update 03-23-2025
+
+### I just found out, it is pretty hard to understand the training and prediction process. I want to set targets to finish this.
+
+* add more documents to explain training and prediction on LLM
+* add more code examples to show how training works in a smaller code piece
