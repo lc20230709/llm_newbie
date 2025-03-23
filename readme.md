@@ -16,6 +16,8 @@ lets have fun on this.
 
 ### how to run this tiny project
 
+* ``` pip install -r requirements.txt ```
+
 * ``` python train.py```
 
 ```
